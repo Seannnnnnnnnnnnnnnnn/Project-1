@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCSAUT Sponsor Map | Sean</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">Sean</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="detail.html">Case Study</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="detail-layout">
+        <section class="detail-hero">
+            <h1>ROCSAUT Sponsor Map</h1>
+            <p class="lead-text">A bilingual map that helps ROCSAUT members find sponsor shops and use their member offers, built for phones in Traditional Chinese and English.</p>
+            <a class="button" href="https://rocsaut-sponsor-map.rocsaut.workers.dev">View the live map</a>
+        </section>
+
+        <section class="content-grid">
+            <article>
+                <h2>Challenge</h2>
+                <p>Show members where each sponsor is and what its offer is, on a phone, in both languages. It also had to be simple enough for the next exec team to maintain.</p>
+
+                <h2>Solution</h2>
+                <ul>
+                    <li>A map with one pin per spot. Shops in the same plaza share one pin that opens a list.</li>
+                    <li>Filters and search in both languages, and a detail sheet with the offer and directions.</li>
+                    <li>Sponsor data is checked before every build, and errors say which entry to fix.</li>
+                    <li>If the map can't load on a phone, the site switches to a list.</li>
+                </ul>
+
+                <img src="assets/map.jpg" alt="The ROCSAUT Sponsor Map showing sponsor pins and clusters near UTM">
+                <img src="assets/card-help.jpg" alt="The How to use your card sheet in English and Traditional Chinese, with a sample membership card" width="340">
+
+                <h2>Key outcomes</h2>
+                <ul>
+                    <li>21+ sponsors, partners and senior picks on the map</li>
+                    <li>App is about 15 KB gzipped, and the map loads after the page appears</li>
+                    <li>Language follows the browser and has a 中 / EN toggle</li>
+                    <li>A "How to use your card" guide, shown in both languages at once</li>
+                </ul>
+            </article>
+
+            <aside>
+                <h3>Date &amp; Category</h3>
+                <p>October 2026, in progress</p>
+                <p>Web app</p>
+
+                <h3>Tools Used</h3>
+                <p>Vite, TypeScript, Preact</p>
+                <p>MapLibre GL, OpenFreeMap</p>
+
+                <h3>Client / Team</h3>
+                <p>ROCSAUT, Taiwanese Students' Association at UTM</p>
+                <p>Me, as developer</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <p>&copy; 2026 Sean</p>
+        <nav>
+            <a href="https://www.linkedin.com/in/sean-wong-20731224b/">LinkedIn</a>
+            <a href="mailto:seanwong.wong@mail.utoronto.ca">Email</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
